@@ -8,10 +8,56 @@ Write an article using semantic markup, header, footer, main and section. In the
 Color the header with white text on a blue background, the footer with white text on a green background, the main portion with black text o a parchment colored background. 
 Make the nouns in the header and footer have a text weight of 600, while the rest of the text has a font-weight of 400.
     -->
-        
+<style>
+    body{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    header{
+        background-color: blue;
+        color: white;
+        font-weight: 400;
+    }
+    header strong{
+        font-weight: 600;
+    }
+    footer{
+        background-color: green;
+        color: white;
+        font-weight: 400;
+    }
+    footer strong{
+        font-weight: 600;
+    }
+    main{
+        color: black;
+        background-color: antiquewhite;
+        font-weight: 400;
+    }
+</style>
 </head>
 
 <body>
+    <header>
+        <h1><strong>Typesetting</strong> compared to <strong>Desktop Publishing</strong></h1>
+    </header>
+
+    <main>
+        <h2>Old Fashion Typesetting</h2>
+        <p>Old Fashion typesetting is a manual way to prepare and arrange text for printing.</p>
+
+        <h2>Desktop Publishing</h2>
+        <p>Desktop publishing is using a computer software to design things intended for print. For example, Adobe InDesign</p>
+
+        <h2>The Use of HTML and CSS</h2>
+        <p>HTML and CSS are used for websites. There are lots of customizable tools in HTMl and CSS that allow users to design user-friendly websites using coding languages. </p>
+
+        <h2>Compare and Contrast</h2>
+        <p>Old fashion typesetting is a manual process for print-only materials. For example, printing books, newspapers, and posters. It has limited flexibility and also takes a long time. Whereas desktop publishing is a software based approach for designing digital materials. This can include posters, magazines, and web design. Adobe InDesign is a great example of this. In desktop publishing its quick, easy, and much more flexible. CSS and HTML use coding languages to structure the design. It has more of focus on websites as opposed to other mediums like magazines, marketing materials, and books. However, it has great flexibility.  </p>
+    </main>
+
+    <footer>
+        <strong>Maddy Leveck</strong> 2024
+    </footer>
 </body>
 
 </html>
